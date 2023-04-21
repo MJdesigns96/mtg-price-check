@@ -1,11 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import CardCard from "./components/card";
+import styles from './App.css'
 
 function App() {
-  return (
-    <>
-    Hello World
-    </>
+  return(
+    <div className="card-container">
+      <CardCard />
+      <CardCard />
+      <CardCard />
+    </div>
+    
   );
 }
 
