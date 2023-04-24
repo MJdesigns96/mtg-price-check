@@ -2,16 +2,26 @@
   font-size: 12px;
 }
 
+.header {
+  padding: 4vh 8vw 4vh 8vw;
+  font-size: 2rem;
+  color: white;
+  background-color: aquamarine;
+  border-bottom: 4px solid black;
+}
+
 .card-container {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   margin-top: 4vh;
+  margin-right: 8vw;
+  margin-left: 8vw;
 }
 
 .card {
-  width: 488px;
-  height: 680px;
+  width: 16vw;
+  height: 36vh;
   display: flex;
   flex-direction: column;
   align-items: center;
